@@ -28,21 +28,22 @@ Or install it yourself as:
 
 ## Structure & Classes
 
-- parser:
-  reads file
-  logs out error if read fails
-  loops over file lines
-  prints image index
-  calls downloader with the url/line
+- parser
+  - reads file
+  - logs out error if read fails
+  - loops over file lines
+  - prints image index
+  - calls downloader with the url/line
 
-- downloader:
-  takes url as input
-  downloads image from url using the Down gem
-  logs out error if download fails
-  logs out success if download succeeds
+- downloader
+  - takes url as input
+  - downloads image from url using the Down gem
+  - logs out error if download fails
+  - logs out success if download succeeds
 
-- logger:
-  logs out success, error, warning, info messages
+- logger
+  - logs out success, error, warning, info messages
+  
 ## Todo
 
 - Fillout test cases
