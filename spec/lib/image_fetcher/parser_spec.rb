@@ -4,7 +4,7 @@ describe ImageFetcher::Parser do
     end
   end
 
-  context "when file is valid"  do
+  context "when file is valid" do
     it "parses each line" do
     end
   end
