@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
--   Add a directory/images
+-   Add a directory `/images`
 -   Add a file with image urls (e.g images/list.txt)
 -   Run `ruby -Ilib ./bin/image_fetcher images/list.txt`
 
