@@ -26,6 +26,23 @@ Or install it yourself as:
 -   Add a file with image urls (e.g images/list.txt)
 -   Run `ruby -Ilib ./bin/image_fetcher images/list.txt`
 
+## Structure & Classes
+
+- parser:
+  reads file
+  logs out error if read fails
+  loops over file lines
+  prints image index
+  calls downloader with the url/line
+
+- downloader:
+  takes url as input
+  downloads image from url using the Down gem
+  logs out error if download fails
+  logs out success if download succeeds
+
+- logger:
+  logs out success, error, warning, info messages
 ## Todo
 
 - Fillout test cases
