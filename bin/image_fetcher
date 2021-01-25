@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require "image_fetcher"
+ImageFetcher.fetch_images_from(path: ARGV[0])
